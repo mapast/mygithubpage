@@ -1,0 +1,259 @@
+body{
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	margin-bottom: 105px;
+}
+
+html {
+	position: relative;
+  min-height: 100%;
+}
+
+p, input, textarea{
+	font-family: "Helvetica Neue", "Roboto", sans-serif, serif;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 1.6em;
+	color: #6C6C6C;
+}
+
+img {
+	float:left;
+  margin: 0 0 10px 10px;
+	padding-right: 20px;
+}
+
+/****************
+SECTION
+*****************/
+section{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section.darker{
+	background-color: #fbfbfb;
+}
+
+section header{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+a{
+	color: #fa694e;
+}
+
+a:hover,
+a:focus{
+	color: #FA4B2A;
+}
+
+/***
+navbar
+****/
+
+.navbar-default {
+  position: absolute;
+  background-color: transparent;
+	border: 0;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 20px;
+	color: white;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  font-weight: 400;
+		color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+}
+
+
+.jumbotron{
+	text-align: center;
+	position: relative;
+	background: url('../img/background.jpg');
+	background-size: cover;
+	color: #fff;
+}
+
+.jumbotron .mask{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.5;
+}
+
+.jumbotron p{
+	color: #fff;
+}
+
+
+/***
+size of top container
+****/
+
+.jumbotron .container{
+	margin-top: 15%;
+}
+
+#home.jumbotron{
+	padding: 1px;
+
+}
+
+.jumbotron .container .subpage{
+	padding: 1px;
+	margin-top: -150px;
+	margin-bottom: -100px;
+
+
+}
+
+.jumbotron h1{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+
+.subpage .header-info{
+	position: relative;
+	top: inherit;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-15%);
+}
+
+.header-info{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*******************************
+FORM
+********************************/
+form{
+	margin-bottom: 70px;
+}
+
+.form-group .btn{
+	width: 100%;
+	text-transform: uppercase;
+}
+.form-control{
+	padding: 17px 25px;
+	font-size: 15px;
+	height: auto;
+	border-radius: 0;
+	background: #f1f4f7;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: all 0.5;
+	transition: all 0.5s;
+	border: 1px solid #fff;
+}
+
+.form-control:focus{
+	border: 1px solid #454554;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+email{
+	margin-bottom: 50px;
+}
+
+email span{
+	margin-top:0;
+	margin-bottom: 25px;
+	font-size: 20px;
+	display: block;
+}
+
+
+#contact p{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*******************************
+FOOTER
+********************************/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 105px;
+  background-color: #f5f5f5;
+}
+.footer p{
+	font-size: 15px;
+}
+/*******************************
+CALCULATOR RESULTS
+********************************/
+#resultNow1, #resultNow2, #resultNow3, #resultNow4
+{
+	font-size: 125%;
+	color: rgb(140, 140, 255);
+}
+#resultNow5, #resultNow6{
+	font-size: 125%;
+	color: rgb(229, 106, 73);
+}
+
+#result3, #result4
+{
+	font-size: 125%;
+	color: rgb(140, 140, 255);
+}
+#result1, #result2 {
+	font-size: 125%;
+	color: rgb(229, 106, 73);
+}
+/*******************************
+FIGURE
+********************************/
+
+figcaption{
+	font-family: "Helvetica Neue", serif;
+	font-weight: 300;
+	font-size: 17px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 1.6em;
+	color: #6C6C6C;
+	font-style: italic;
+}
+/*******************************
+REFERENCES
+********************************/
+#reference {
+	font-size: 12pt;
+	color: #6C6C6C;
+}
+
+#tips p{
+	margin-top: 0;
+}
+
+#caption p{
+	font-family: "Helvetica Neue", serif;
+	font-weight: 300;
+	font-size: 17px;
+}
