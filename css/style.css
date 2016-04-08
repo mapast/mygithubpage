@@ -1,7 +1,6 @@
 body{
 	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 	font-size: 15px;
-
 }
 
 html {
@@ -107,7 +106,7 @@ size of top container
 ****/
 
 .jumbotron .container{
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 #home.jumbotron{
@@ -117,8 +116,8 @@ size of top container
 
 .jumbotron .container .subpage{
 	padding: 1px;
-	margin-top: -150px;
-	margin-bottom: -100px;
+	margin-top: -135px;
+	margin-bottom: -10px;
 
 
 }
